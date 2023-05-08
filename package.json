@@ -1,0 +1,16 @@
+{
+  "name": "claude-lasternas",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start"
+  },
+  "dependencies": {
+    "@chakra-ui/icons": "^2.0.19",
+    "@chakra-ui/react": "^2.6.1",
+    "mongoose": "^7.1.0",
+    "next": "^13.4.1",
+    "react": "^18.2.0"
+  }
+}
