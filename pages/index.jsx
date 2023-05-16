@@ -26,11 +26,11 @@ export default function Index() {
       <Heading>
         Voici un aperçu de mes peintures:
       </Heading>
-      <Grid data={data} message='Voir plus' callback={callback} />
       <Text fontSize={20} margin='20px'>
         Il y a la possibilité de réaliser des tableaux sur des thèmes personnalisés !
         Vous pouvez me <Link href='/contact'><strong>contacter</strong></Link>
       </Text>
+      <Grid data={data} message='Voir plus' callback={callback} />
     </Fragment>
   );
 }
